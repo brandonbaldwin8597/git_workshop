@@ -1,4 +1,4 @@
-num = input("Please, enter a positive number: ")
+num = input("Enter a positive number: ")
 if not num.strip().isdigit():
     print("It is an invalid entry. Don't use non-numeric, float, or negative values!")
 elif int(num) >= 0:
